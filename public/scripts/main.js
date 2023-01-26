@@ -1,8 +1,8 @@
 function init() {
-    let margin = 125;
+    let margin = 100;
     
     if (window.screen.width <= 600) {
-        margin = 85;
+        margin = 70;
     } else if (window.screen.width > 992) {
         document.getElementById('home').style.height = `${window.innerHeight - margin}px`;
     }
@@ -17,10 +17,10 @@ function init() {
 function moveToPanel(panel, isMobile) {
     const element = document.getElementById(panel).offsetTop;
 
-    let margin = 125;
+    let margin = 100;
 
     if (window.screen.width < 992) {
-        margin = 85;
+        margin = 70;
     }
 
     window.scrollTo({ 
