@@ -6,7 +6,7 @@
         <script type="text/javascript" src="scripts/main.js"></script>
         <link type="text/css" rel="stylesheet" href="css/index.css">
     </head>
-    <body onload="init()">
+    <body onload="init();">
         <div class="header">
             <div class="headerHalf">
                 <div class="headerAvatar" onclick="moveToPanel('home')"><img src="src/me.png" alt=""></div>
@@ -25,8 +25,8 @@
         <div class="container">
             <div id="home" class="panel">
                 <div class="socialMedia">
-                    <span onclick="goToLink('linkedin');"><i class="fa-brands fa-linkedin fa-4x"></i></span>
-                    <span onclick="goToLink('git');"><i class="fa-brands fa-square-github fa-4x"></i></span>
+                    <span onclick="goToLink('linkedin');"><i class="fa-brands fa-linkedin fa-3x"></i></span>
+                    <span onclick="goToLink('git');"><i class="fa-brands fa-square-github fa-3x"></i></span>
                 </div>
                 <div class="homePanelBody">
                     <div class="homePanelHeading">HEY, I'M RYAN MURNEY!</div>
@@ -143,8 +143,8 @@
                 <div class="footerSocials">
                     <div class="footerTitle">SOCIALS</div>
                     <br>
-                    <span onclick="goToLink('linkedin');"><i class="fa-brands fa-linkedin-in fa-4x"></i></span>
-                    <span onclick="goToLink('git');"><i class="fa-brands fa-github fa-4x"></i></span>
+                    <span onclick="goToLink('linkedin');"><i class="fa-brands fa-linkedin-in fa-3x"></i></span>
+                    <span onclick="goToLink('git');"><i class="fa-brands fa-github fa-3x"></i></span>
                 </div>
             </div>
             <div class="footerEnd">
@@ -152,7 +152,7 @@
             </div>
         </div>
         <div class="messageMeHelper" onclick="moveToPanel('contact')">
-            <span><i class="fa-solid fa-envelope fa-4x"></i></span>
+            <span><i class="fa-solid fa-envelope fa-3x"></i></span>
         </div>
         <div id="mobileMenu" style="display: none;">
             <div class="mobileMenuRow" onclick="moveToPanel('home', true)">HOME</div>
@@ -162,7 +162,7 @@
         </div>
         <div id="successToast" class="toast">
             <div class="successToastHightlight"></div>
-            <div class="successToastIcon"><span><i class="fa-solid fa-check-circle fa-4x"></i></span></div>
+            <div class="successToastIcon"><span><i class="fa-solid fa-check-circle fa-3x"></i></span></div>
             <div class="toastText">
                 <div>Message delivered!</div>
                 <div>Hey, thanks for reaching out. I will get back to you as soon as I can.</div>
@@ -170,7 +170,7 @@
         </div>
         <div id="errorToast" class="toast">
             <div class="errorToastHightlight"></div>
-            <div class="errorToastIcon"><span><i class="fa-solid fa-times-circle fa-4x"></i></span></div>
+            <div class="errorToastIcon"><span><i class="fa-solid fa-times-circle fa-3x"></i></span></div>
             <div class="toastText">
                 <div>Message failed...</div>
                 <div>Hey, not sure what happened to your message. Please contact me via LinkedIn!</div>
@@ -178,7 +178,7 @@
         </div>
         <div id="questionToast" class="toast">
             <div class="questionToastHightlight"></div>
-            <div class="questionToastIcon"><span><i class="fa-solid fa-question-circle fa-4x"></i></span></div>
+            <div class="questionToastIcon"><span><i class="fa-solid fa-question-circle fa-3x"></i></span></div>
             <div class="toastText">
                 <div>Message failed...</div>
                 <div>Hey, you left a field blank or I didn't like something you typed. Please try again.</div>

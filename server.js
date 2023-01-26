@@ -23,9 +23,17 @@ app.post("/email", (req, res) => {
     .then(
       function (response) {
         console.log('SUCCESS!', response.status, response.text);
+        
+        res.status(200).send({
+          message: 'Email successfully sent'
+        });;
       },
       function (err) {
         console.log('FAILED...', err);
+        
+        res.status(404).send({
+          message: 'Email failed to send'
+        });
       },
     );
 });
