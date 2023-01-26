@@ -142,7 +142,7 @@ body {
 
 #home {
     justify-content: space-between;
-    background-image: url("src/portfoliobg.jpg");
+    background-image: url("../src/portfoliobg.jpg");
     background-size: cover;
     justify-content: center;
 }
