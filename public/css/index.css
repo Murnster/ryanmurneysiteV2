@@ -256,6 +256,7 @@ body {
     width: 35%;
     padding: 1%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .projectImg img {
