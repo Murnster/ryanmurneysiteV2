@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Ryan Murney | Web Developer</title>
+        <meta name="description" content="Software Developer based in Halifax, Nova Scotia. Web Development is my passion, and I strive to create high-quality interfaces with intuitive user design."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex, nofollow">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script type="text/javascript" src="scripts/main.js?v=1.1"></script>
-        <link type="text/css" rel="stylesheet" href="css/index.css?v=1.1">
+        <script type="text/javascript" src="scripts/main.js?v=1.2"></script>
+        <link type="text/css" rel="stylesheet" href="css/index.css?v=1.2">
         <link rel="shortcut icon" type="image/png" href="src/me.png">
+        <link rel="canonical" href="https://www.ryanmurney.ca/"/>
     </head>
     <body onload="init();">
         <div class="header">
             <div class="headerHalf">
-                <div class="headerAvatar" onclick="moveToPanel('home')"><img src="src/me.png" alt=""></div>
+                <div class="headerAvatar" onclick="moveToPanel('home')"><img src="src/me.png" alt="ryan emoji"></div>
                 <div class="headerName" onclick="moveToPanel('home')">RYAN MURNEY</div>
             </div>
             <div class="headerHalf browserHeader">
@@ -30,7 +35,7 @@
                     <span onclick="goToLink('git');"><i class="fa-brands fa-square-github fa-3x"></i></span>
                 </div>
                 <div class="homePanelBody">
-                    <div class="homePanelHeading">HEY, I'M RYAN MURNEY!</div>
+                    <h1 class="homePanelHeading">HEY, I'M RYAN MURNEY!</h1>
                     <div class="homePanelSubHeading">
                         I am a Software Developer based in Halifax, Nova Scotia. Web Development is my passion, and I strive to create high-quality interfaces with intuitive user design. I'm a graduate of Acadia University with a degree in Computer Science, specializing in Software Development.
                     </div>
@@ -42,13 +47,13 @@
             </div>
             <div id="about" class="panel">
                 <div class="panelHeader">
-                    <div class="panelTitle">ABOUT ME</div>
+                    <h2 class="panelTitle">ABOUT ME</h2>
                     <div class="murneyDivider"></div>
                     <div class="panelSubtitle">In this section you will find more about me and what I can do, my interests, and the technologies I use for software development</div>
                 </div>
                 <div class="aboutBody">
                     <div class="aboutSummary">
-                        <div class="aboutBodyHeader">A little bit about me!</div>
+                        <h3 class="aboutBodyHeader">A little bit about me!</h3>
                         <br>
                         <div class="aboutBodyContent">
                             I am a Software Developer based in Halifax, Nova Scotia. Web Development is my passion, and I strive to create high-quality interfaces with intuitive user design. You can see some things I have worked on in the Projects section.
@@ -59,58 +64,62 @@
                         </div>
                     </div>
                     <div class="aboutSkills">
-                        <div class="aboutBodyHeader">Skills and Technologies</div>
+                        <h3 class="aboutBodyHeader">Skills and Technologies</h3>
                         <br>
                         <div class="aboutBodyContent">
-                            <div class="aboutSkillItem">HTML</div>
-                            <div class="aboutSkillItem">CSS</div>
-                            <div class="aboutSkillItem">JavaScript</div>
-                            <div class="aboutSkillItem">TypeScript</div>
-                            <div class="aboutSkillItem">React Basics</div>
-                            <div class="aboutSkillItem">Git</div>
-                            <div class="aboutSkillItem">GitHub</div>
-                            <div class="aboutSkillItem">Express</div>
-                            <div class="aboutSkillItem">Responsive Design</div>
-                            <div class="aboutSkillItem">MySQL</div>
-                            <div class="aboutSkillItem">CLI</div>
-                            <div class="aboutSkillItem">Linux</div>
-                            <div class="aboutSkillItem">jQuery</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">JavaScript</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">TypeScript</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">SEO</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Web Apps</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Git</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Google Cloud</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Express</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">React</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">CRUD</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">HTML</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">CSS</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Bootstrap</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">jQuery</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Python</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">MySQL</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Linux</div>
+                            <div class="aboutSkillItem" onclick="moveToPanel('project')">Responsive Design</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="project" class="panel">
                 <div class="panelHeader">
-                    <div class="panelTitle">PROJECTS</div>
+                    <h2 class="panelTitle">PROJECTS</h2>
                     <div class="murneyDivider"></div>
-                    <div class="panelSubtitle">Here you will see some of the projects I have worked on along with some details about each one. Click on the project image if you'd like to take a look!</div>
+                    <div class="panelSubtitle">Here you will see some of the projects I have worked on to develop my skills along with some details about each one. Click on the project image if you'd like to take a look!</div>
                 </div>
                 <div class="projectRow">
                     <div class="projectImg" onclick="window.open('https://catany.onrender.com/', '_blank')">
-                        <img src="src/catanmock.png" alt="">
+                        <img src="src/catanmock.png" alt="Catany project image">
                     </div>
                     <div class="projectDesc">
-                        <div class="aboutBodyHeader">Catany: Catan Board Generator</div>
+                        <h3 class="aboutBodyHeader">Catany: Catan Board Generator</h3>
                         <br><br class="browserBr">
                         <div class="aboutBodyContent">Catany is a Catan Board Generator was one of my first projects, that builds a board for the game Settlers of Catan. It allows players to generate a fully randomized board or choose options to build a board for Catan players to play the game in new unique ways.</div>
                     </div>
                 </div>
                 <div class="projectRow">
                     <div class="projectImg" onclick="window.open('https://murnster.github.io/SimpleSport/', '_blank')">
-                        <img src="src/simplesportmock.png" alt="">
+                        <img src="src/simplesportmock.png" alt="SimpleSport project image">
                     </div>
                     <div class="projectDesc">
-                        <div class="aboutBodyHeader">SimpleSport</div>
+                        <h3 class="aboutBodyHeader">SimpleSport</h3>
                         <br><br class="browserBr">
                         <div class="aboutBodyContent">SimpleSport is a sports team management web application I built for the Capstone Project of my degree. I used popular technologies such as React and Express in order to create it to expand my skill set.</div>
                     </div>
                 </div>
                 <div class="projectRow">
                     <div class="projectImg" onclick="window.open('https://murnster.github.io/demosite-one/', '_blank')">
-                        <img src="src/lakeviewmock.png" alt="">
+                        <img src="src/lakeviewmock.png" alt="Lakeview Company project image">
                     </div>
                     <div class="projectDesc">
-                        <div class="aboutBodyHeader">Company Demo</div>
+                        <h3 class="aboutBodyHeader">Company Demo</h3>
                         <br><br class="browserBr">
                         <div class="aboutBodyContent">This project is a simple demo showing how I help your small business create a strong online presense. The demo does not have any functionality as it was built to represent a clean and responsive design. Contact me if you need a website that can grow your business!</div>
                     </div>
@@ -118,7 +127,7 @@
             </div>
             <div id="contact">
                 <div class="panelHeader">
-                    <div class="panelTitle">CONTACT</div>
+                    <h2 class="panelTitle">CONTACT</h2>
                     <div class="murneyDivider"></div>
                     <div class="panelSubtitle">Please feel free to contact me using the form below and I will respond back at my earliest convience!</div>
                 </div>
@@ -160,7 +169,7 @@
                 </div>
             </div>
             <div class="footerEnd">
-                <div class="footerEndTag">Made by Ryan Murney</div>
+                <div class="footerEndTag">Made by Ryan Murney, 2023</div>
             </div>
         </div>
         <div class="messageMeHelper" onclick="moveToPanel('contact')">

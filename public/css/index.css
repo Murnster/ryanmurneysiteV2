@@ -159,6 +159,7 @@ body {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 .homePanelSubHeading {
@@ -196,6 +197,7 @@ body {
 .panelTitle {
     font-weight: bold;
     font-size: 38px;
+    margin: 0px;
 }
 
 .panelSubtitle {
@@ -213,6 +215,7 @@ body {
 .aboutBodyHeader {
     font-weight: bold;
     font-size: 24px;
+    margin: 0px;
 }
 
 .aboutSummary {
@@ -233,11 +236,13 @@ body {
 }
 
 .aboutSkillItem {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
     border-radius: 10px;
-    padding: 15px;
-    background: lightgray;
+    padding: 17.5px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
 }
 
 .projectPanel {
@@ -254,7 +259,7 @@ body {
 
 .projectImg {
     width: 35%;
-    padding: 1%;
+    padding: 2%;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -516,6 +521,7 @@ body {
     .homePanelHeading {
         font-size: 40px;
         margin-bottom: 25px;
+        margin-top: 0px;
     }
 
     .homePanelSubHeading {
@@ -604,6 +610,17 @@ body {
     .toastText {
         width: 66%;
     }
+    
+    .aboutSkillItem {
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 15px;
+        background: skyblue;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -678,6 +695,7 @@ body {
     .homePanelHeading {
         font-size: 40px;
         margin-bottom: 25px;
+        margin-top: 0px;
     }
 
     .homePanelSubHeading {
@@ -835,162 +853,7 @@ body {
     .homePanelHeading {
         font-size: 40px;
         margin-bottom: 25px;
-    }
-
-    .homePanelSubHeading {
-        font-size: 18px;
-    }
-
-    .homePanelBtn {
-        width: 40%;
-        font-size: 18px;
-        margin-top: 12%;
-    }
-
-    .aboutBody {
-        flex-direction: column;
-    }
-
-    .aboutSummary, .aboutSkills {
-        margin-top: 20px;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .projectRow {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    .projectImg {
-        width: 90%;
-        padding: 1%;
-        border-radius: 10px;
-    }
-
-    .projectDesc {
-        width: 90%;
-        padding: 20px 5px;
-    }
-
-    .projectDesc .aboutBodyHeader {
-        text-align: center;
-    }
-
-    #contact {
-        padding-bottom: 50px;
-    }
-
-    .contactForm {
-        width: 85%;
-        margin: 10px;
-    }
-
-    #contactPanelBtn {
-        padding: 15px;
-        width: 40%;
-    }
-
-    .footer {
-        padding: 25px;
-    }
-
-    .footerBody {
-        flex-direction: column-reverse;
-        margin: 0;
-    }
-
-    .footerDetails {
-        width: 100%;
-        margin-top: 10%;
-    }
-
-    .footerDetails br:first-of-type {
-        display: none;
-    }
-
-    .footerEnd {
-        margin-top: 30px;
-    }
-
-    .toast {
-        width: 80%;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .headerHalf {
-        width: 90%;
-    }
-
-    .header {
-        height: 70px;
-        font-size: 18px;
-    }
-
-    .browserBr {
-        display: none;
-    }
-
-    .browserHeader {
-        display: none !important;
-    }
-
-    .headerAvatar {
-        width: 50px;
-        height: 50px;
-    }
-
-    .mobileHeader {
-        display: flex;
-        width: 10%;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .mobileHeader span {
-        cursor: pointer;
-    }
-
-    #mobileMenu {
-        position: fixed;
-        flex-direction: column;
-        top: 70px;
-        background: white;
-        width: 100%;
-        -webkit-animation: fadein 0.3s linear;
-        animation: fadein 0.3s linear;
-    }
-
-    .mobileMenuRow {
-        border-top: 0.75px solid gray;
-        text-align: end;
-        padding: 15px 25px;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-    .container {
-        margin-top: 70px;
-    }
-
-    .socialMedia {
-        display: none;
-    }
-
-    .panelArrow {
-        display: none;
-    }
-
-    .homePanelBody {
-        padding: 25% 5%;
-    }
-    
-    .homePanelHeading {
-        font-size: 40px;
-        margin-bottom: 25px;
+        margin-top: 0px;
     }
 
     .homePanelSubHeading {
@@ -1128,6 +991,7 @@ body {
     .homePanelHeading {
         font-size: 60px;
         margin-bottom: 15px;
+        margin-top: 0px;
     }
 
     .homePanelSubHeading {
@@ -1159,7 +1023,7 @@ body {
 
     .projectImg {
         width: 35%;
-        padding: 1%;
+        padding: 2%;
         border-radius: 10px;
     }
     
@@ -1227,7 +1091,8 @@ body {
     }
 
     .aboutSkillItem:hover {
-        box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+        background: skyblue;
     }
 
     .toast {
