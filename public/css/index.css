@@ -456,650 +456,650 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.headerHalf {
-	width: 80%;
+		width: 80%;
 	}
 
 	.header {
-	height: 70px;
-	font-size: 18px;
+		height: 70px;
+		font-size: 18px;
 	}
 
 	.browserHeader {
-	display: none !important;
+		display: none !important;
 	}
 
 	.headerAvatar {
-	width: 50px;
-	height: 50px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.mobileHeader {
-	display: flex;
-	width: 20%;
-	justify-content: center;
-	align-items: center;
+		display: flex;
+		width: 20%;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	.mobileHeader span {
-	cursor: pointer;
+		cursor: pointer;
 	}
 
 	#mobileMenu {
-	position: fixed;
-	flex-direction: column;
-	top: 70px;
-	background: white;
-	width: 100%;
-	-webkit-animation: fadein 0.3s linear;
-	animation: fadein 0.3s linear;
+		position: fixed;
+		flex-direction: column;
+		top: 70px;
+		background: white;
+		width: 100%;
+		-webkit-animation: fadein 0.3s linear;
+		animation: fadein 0.3s linear;
 	}
 
 	.mobileMenuRow {
-	border-top: 0.75px solid gray;
-	text-align: end;
-	padding: 15px 25px;
-	font-weight: bold;
-	font-size: 18px;
+		border-top: 0.75px solid gray;
+		text-align: end;
+		padding: 15px 25px;
+		font-weight: bold;
+		font-size: 18px;
 	}
 
 	.container {
-	margin-top: 70px;
+		margin-top: 70px;
 	}
 
 	.socialMedia {
-	display: none;
+		display: none;
 	}
 
 	.panelArrow {
-	display: none;
+		display: none;
 	}
 
 	.homePanelBody {
-	padding: 25% 5%;
+		padding: 25% 5%;
 	}
 	
 	.homePanelHeading {
-	font-size: 40px;
-	margin-bottom: 25px;
-	margin-top: 0px;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 0px;
 	}
 
 	.homePanelSubHeading {
-	font-size: 18px;
+		font-size: 18px;
 	}
 
 	.homePanelBtn {
-	width: 40%;
-	font-size: 18px;
-	margin-top: 12%;
+		width: 40%;
+		font-size: 18px;
+		margin-top: 12%;
 	}
 
 	.aboutBody {
-	flex-direction: column;
+		flex-direction: column;
 	}
 
 	.aboutSummary, .aboutSkills {
-	margin-top: 20px;
-	width: 100%;
-	padding: 10px;
+		margin-top: 20px;
+		width: 100%;
+		padding: 10px;
 	}
 
 	.projectRow {
-	flex-direction: column;
-	align-items: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 
 	.projectImg {
-	width: 90%;
-	padding: 1%;
-	border-radius: 10px;
+		width: 90%;
+		padding: 1%;
+		border-radius: 10px;
 	}
 
 	.projectDesc {
-	width: 90%;
-	padding: 20px 5px;
+		width: 90%;
+		padding: 20px 5px;
 	}
 
 	.projectDesc .aboutBodyHeader {
-	text-align: center;
+		text-align: center;
 	}
 
 	#contact {
-	padding-bottom: 50px;
+		padding-bottom: 50px;
 	}
 
 	.contactForm {
-	width: 85%;
-	margin: 10px;
+		width: 85%;
+		margin: 10px;
 	}
 
 	#contactPanelBtn {
-	padding: 15px;
-	width: 40%;
+		padding: 15px;
+		width: 40%;
 	}
 
 	.footer {
-	padding: 25px;
+		padding: 25px;
 	}
 
 	.footerBody {
-	flex-direction: column-reverse;
-	margin: 0;
+		flex-direction: column-reverse;
+		margin: 0;
 	}
 
 	.footerDetails {
-	width: 100%;
-	margin-top: 10%;
+		width: 100%;
+		margin-top: 10%;
 	}
 
 	.footerDetails br:first-of-type {
-	display: none;
+		display: none;
 	}
 	
 	.footerEnd {
-	margin-top: 30px;
+		margin-top: 30px;
 	}
 
 	.toast {
-	width: 80%;
-	height: 115px;
+		width: 80%;
+		height: 115px;
 	}
 
 	.toastText {
-	width: 66%;
+		width: 66%;
 	}
 	
 	.aboutSkillItem {
-	font-size: 16px;
-	margin: 10px;
-	border-radius: 10px;
-	padding: 15px;
-	background: skyblue;
-	font-weight: 400;
-	cursor: pointer;
-	box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+		font-size: 16px;
+		margin: 10px;
+		border-radius: 10px;
+		padding: 15px;
+		background: skyblue;
+		font-weight: 400;
+		cursor: pointer;
+		box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
 	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.headerHalf {
-	width: 90%;
+		width: 90%;
 	}
 
 	.header {
-	height: 70px;
-	font-size: 18px;
+		height: 70px;
+		font-size: 18px;
 	}
 
 	.browserBr {
-	display: none;
+		display: none;
 	}
 
 	.browserHeader {
-	display: none !important;
+		display: none !important;
 	}
 
 	.headerAvatar {
-	width: 50px;
-	height: 50px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.mobileHeader {
-	display: flex;
-	width: 10%;
-	justify-content: center;
-	align-items: center;
+		display: flex;
+		width: 10%;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	.mobileHeader span {
-	cursor: pointer;
+		cursor: pointer;
 	}
 
 	#mobileMenu {
-	position: fixed;
-	flex-direction: column;
-	top: 70px;
-	background: white;
-	width: 100%;
-	-webkit-animation: fadein 0.3s linear;
-	animation: fadein 0.3s linear;
+		position: fixed;
+		flex-direction: column;
+		top: 70px;
+		background: white;
+		width: 100%;
+		-webkit-animation: fadein 0.3s linear;
+		animation: fadein 0.3s linear;
 	}
 
 	.mobileMenuRow {
-	border-top: 0.75px solid gray;
-	text-align: end;
-	padding: 15px 25px;
-	font-weight: bold;
-	font-size: 18px;
+		border-top: 0.75px solid gray;
+		text-align: end;
+		padding: 15px 25px;
+		font-weight: bold;
+		font-size: 18px;
 	}
-
+	
 	.container {
-	margin-top: 70px;
+		margin-top: 70px;
 	}
-
+	
 	.socialMedia {
-	display: none;
+		display: none;
 	}
-
+	
 	.panelArrow {
-	display: none;
+		display: none;
 	}
-
+	
 	.homePanelBody {
-	padding: 25% 5%;
+		padding: 25% 5%;
 	}
 	
 	.homePanelHeading {
-	font-size: 40px;
-	margin-bottom: 25px;
-	margin-top: 0px;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 0px;
 	}
 
 	.homePanelSubHeading {
-	font-size: 18px;
+		font-size: 18px;
 	}
 
 	.homePanelBtn {
-	width: 40%;
-	font-size: 18px;
-	margin-top: 12%;
+		width: 40%;
+		font-size: 18px;
+		margin-top: 12%;
 	}
 
 	.aboutBody {
-	flex-direction: column;
+		flex-direction: column;
 	}
 
 	.aboutSummary, .aboutSkills {
-	margin-top: 20px;
-	width: 100%;
-	padding: 10px;
+		margin-top: 20px;
+		width: 100%;
+		padding: 10px;
 	}
 
 	.projectRow {
-	flex-direction: column;
-	align-items: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 
 	.projectImg {
-	width: 90%;
-	padding: 1%;
-	border-radius: 10px;
+		width: 90%;
+		padding: 1%;
+		border-radius: 10px;
 	}
 
 	.projectDesc {
-	width: 90%;
-	padding: 20px 5px;
+		width: 90%;
+		padding: 20px 5px;
 	}
 
 	.projectDesc .aboutBodyHeader {
-	text-align: center;
+		text-align: center;
 	}
 
 	#contact {
-	padding-bottom: 50px;
+		padding-bottom: 50px;
 	}
 
 	.contactForm {
-	width: 85%;
-	margin: 10px;
+		width: 85%;
+		margin: 10px;
 	}
 
 	#contactPanelBtn {
-	padding: 15px;
-	width: 40%;
+		padding: 15px;
+		width: 40%;
 	}
 
 	.footer {
-	padding: 25px;
+		padding: 25px;
 	}
 
 	.footerBody {
-	flex-direction: column-reverse;
-	margin: 0;
+		flex-direction: column-reverse;
+		margin: 0;
 	}
 
 	.footerDetails {
-	width: 100%;
-	margin-top: 10%;
+		width: 100%;
+		margin-top: 10%;
 	}
 
 	.footerDetails br:first-of-type {
-	display: none;
+		display: none;
 	}
 
 	.footerEnd {
-	margin-top: 30px;
+		margin-top: 30px;
 	}
 
 	.toast {
-	width: 80%;
+		width: 80%;
 	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.headerHalf {
-	width: 90%;
+		width: 90%;
 	}
 
 	.header {
-	height: 70px;
-	font-size: 18px;
+		height: 70px;
+		font-size: 18px;
 	}
 
 	.browserBr {
-	display: none;
+		display: none;
 	}
 
 	.browserHeader {
-	display: none !important;
+		display: none !important;
 	}
 
 	.headerAvatar {
-	width: 50px;
-	height: 50px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.mobileHeader {
-	display: flex;
-	width: 10%;
-	justify-content: center;
-	align-items: center;
+		display: flex;
+		width: 10%;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	.mobileHeader span {
-	cursor: pointer;
+		cursor: pointer;
 	}
 
 	#mobileMenu {
-	position: fixed;
-	flex-direction: column;
-	top: 70px;
-	background: white;
-	width: 100%;
-	-webkit-animation: fadein 0.3s linear;
-	animation: fadein 0.3s linear;
+		position: fixed;
+		flex-direction: column;
+		top: 70px;
+		background: white;
+		width: 100%;
+		-webkit-animation: fadein 0.3s linear;
+		animation: fadein 0.3s linear;
 	}
 
 	.mobileMenuRow {
-	border-top: 0.75px solid gray;
-	text-align: end;
-	padding: 15px 25px;
-	font-weight: bold;
-	font-size: 18px;
+		border-top: 0.75px solid gray;
+		text-align: end;
+		padding: 15px 25px;
+		font-weight: bold;
+		font-size: 18px;
 	}
 
 	.container {
-	margin-top: 70px;
+		margin-top: 70px;
 	}
 
 	.socialMedia {
-	display: none;
+		display: none;
 	}
 
 	.panelArrow {
-	display: none;
+		display: none;
 	}
 
 	.homePanelBody {
-	padding: 25% 5%;
+		padding: 25% 5%;
 	}
 	
 	.homePanelHeading {
-	font-size: 40px;
-	margin-bottom: 25px;
-	margin-top: 0px;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 0px;
 	}
 
 	.homePanelSubHeading {
-	font-size: 18px;
+		font-size: 18px;
 	}
 
 	.homePanelBtn {
-	width: 40%;
-	font-size: 18px;
-	margin-top: 12%;
+		width: 40%;
+		font-size: 18px;
+		margin-top: 12%;
 	}
 
 	.aboutBody {
-	flex-direction: column;
+		flex-direction: column;
 	}
 
 	.aboutSummary, .aboutSkills {
-	margin-top: 20px;
-	width: 100%;
-	padding: 10px;
+		margin-top: 20px;
+		width: 100%;
+		padding: 10px;
 	}
 
 	.projectRow {
-	flex-direction: column;
-	align-items: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 
 	.projectImg {
-	width: 90%;
-	padding: 1%;
-	border-radius: 10px;
+		width: 90%;
+		padding: 1%;
+		border-radius: 10px;
 	}
 
 	.projectDesc {
-	width: 90%;
-	padding: 20px 5px;
+		width: 90%;
+		padding: 20px 5px;
 	}
 
 	.projectDesc .aboutBodyHeader {
-	text-align: center;
+		text-align: center;
 	}
 
 	#contact {
-	padding-bottom: 50px;
+		padding-bottom: 50px;
 	}
 
 	.contactForm {
-	width: 85%;
-	margin: 10px;
+		width: 85%;
+		margin: 10px;
 	}
 
 	#contactPanelBtn {
-	padding: 15px;
-	width: 40%;
+		padding: 15px;
+		width: 40%;
 	}
 
 	.footer {
-	padding: 25px;
+		padding: 25px;
 	}
 
 	.footerBody {
-	flex-direction: column-reverse;
-	margin: 0;
+		flex-direction: column-reverse;
+		margin: 0;
 	}
 
 	.footerDetails {
-	width: 100%;
-	margin-top: 10%;
+		width: 100%;
+		margin-top: 10%;
 	}
 
 	.footerDetails br:first-of-type {
-	display: none;
+		display: none;
 	}
 
 	.footerEnd {
-	margin-top: 30px;
+		margin-top: 30px;
 	}
 
 	.toast {
-	width: 80%;
+		width: 80%;
 	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	.headerHalf {
-	width: 50%;
+		width: 50%;
 	}
 
 	.header {
-	height: 100px;
-	font-size: 20px;
+		height: 100px;
+		font-size: 20px;
 	}
 
 	.browserBr {
-	display: block;
+		display: block;
 	}
 
 	.browserHeader {
-	display: flex !important;
+		display: flex !important;
 	}
 
 	.headerAvatar {
-	width: 64px;
-	height: 64px;
+		width: 64px;
+		height: 64px;
 	}
 
 	.mobileHeader {
-	display: none;
-	width: 0%;
+		display: none;
+		width: 0%;
 	}
 
 	#mobileMenu {
-	display: none;
+		display: none;
 	}
 
 	.container {
-	margin-top: 100px;
+		margin-top: 100px;
 	}
 
 	.socialMedia {
-	display: flex;
+		display: flex;
 	}
 
 	.panelArrow {
-	display: block;
+		display: block;
 	}
 
 	.homePanelBody {
-	padding: 5% 20% 10% 20%;
+		padding: 5% 20% 10% 20%;
 	}
 	
 	.homePanelHeading {
-	font-size: 60px;
-	margin-bottom: 15px;
-	margin-top: 0px;
+		font-size: 60px;
+		margin-bottom: 15px;
+		margin-top: 0px;
 	}
 
 	.homePanelSubHeading {
-	font-size: 26px;
+		font-size: 26px;
 	}
 
 	.homePanelBtn {
-	width: 20%;
-	font-size: 22px;
-	margin-top: 5%;
+		width: 20%;
+		font-size: 22px;
+		margin-top: 5%;
 	}
 
 	.aboutBody {
-	flex-direction: row;
+		flex-direction: row;
 	}
 
 	.aboutSummary, .aboutSkills {
-	margin-top: 0px;
-	width: 50%;
-	padding: 20px;
+		margin-top: 0px;
+		width: 50%;
+		padding: 20px;
 	}
 
 	.projectRow {
-	flex-direction: row;
-	align-items: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 3%;
+		margin-bottom: 3%;
 	}
 
 	.projectImg {
-	width: 35%;
-	padding: 2%;
-	border-radius: 10px;
+		width: 35%;
+		padding: 2%;
+		border-radius: 10px;
 	}
 	
 	.projectImg:hover {
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
 	}
 	
 	.projectDesc {
-	width: 35%;
-	padding: 10px;
-	margin-left: 10px;
+		width: 35%;
+		padding: 10px;
+		margin-left: 15px;
 	}
 
 	.projectDesc .aboutBodyHeader {
-	text-align: start;
+		text-align: start;
 	}
 
 	#contact {
-	padding-bottom: 150px;
+		padding-bottom: 150px;
 	}
 
 	.contactForm {
-	width: 40%;
-	margin: 0px;
+		width: 40%;
+		margin: 0px;
 	}
 
 	#contactPanelBtn {
-	padding: 20px;
-	width: 25%;
+		padding: 20px;
+		width: 25%;
 	}
 
 	.footer {
-	padding: 50px;
+		padding: 50px;
 	}
 
 	.footerBody {
-	flex-direction: row;
-	margin: 0% 15%;
+		flex-direction: row;
+		margin: 0% 15%;
 	}
 
 	.footerDetails {
-	width: 50%;
-	margin: 0;
+		width: 50%;
+		margin: 0;
 	}
 
 	.footerDetails br:first-of-type {
-	display: block;
+		display: block;
 	}
 
 	.socialMedia span:hover, .messageMeHelper:hover {
-	background: skyblue;
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+		background: skyblue;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	}
 	
 	.headerName:hover, .headerItem:hover {
-	color: skyblue;
+		color: skyblue;
 	}
 
 	.homePanelBtn:hover {
-	box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+		box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
 	}
 
 	#contactPanelBtn:hover {
-	box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+		box-shadow: rgba(0, 0, 0, 0.32) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
 	}
 
 	.aboutSkillItem:hover {
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
-	background: skyblue;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+		background: skyblue;
 	}
 
 	.toast {
-	width: 30%;
+		width: 30%;
 	}
 	
 	.footerEnd {
-	margin-top: 75px;
+		margin-top: 75px;
 	}
 }
